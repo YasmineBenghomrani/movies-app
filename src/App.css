@@ -1,0 +1,140 @@
+.boxsh {
+  box-shadow: 0px 0px 8px -63px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0px 0px 8px -63px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 0px 8px -63px rgba(0, 0, 0, 0.05);
+}
+
+.swiper {
+  margin-top: 20px;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 600px !important;
+  height: 400px !important;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.mySwiper {
+  height: 500px;
+}
+
+.movie-card {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 1px 1px 14px -2px rgba(0, 0, 0, 0.54);
+  -webkit-box-shadow: 1px 1px 14px -2px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 1px 1px 14px -2px rgba(0, 0, 0, 0.54);
+}
+
+.content-card {
+  padding: 12px;
+  background-color: rgba(0, 0, 0, 0.639);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.header {
+  color: white;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+.footer p {
+  color: rgb(185, 185, 185);
+  font-size: 12px;
+}
+
+.footer input {
+  display: flex;
+  padding: 6px 26px;
+  background: linear-gradient(
+    to bottom right,
+    rgb(50, 4, 50),
+    rgba(255, 105, 180, 0.721)
+  );
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.categorie {
+  padding: 2px 12px;
+  background-color: rgba(193, 193, 193, 0.201);
+  border-radius: 5px;
+}
+.movies .line {
+  width: 400px;
+  height: 2px;
+  background-color: rgb(50, 4, 50);
+  border-radius: 4px;
+}
+.movies {
+  padding-top: 32px;
+}
+
+.movies .header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.media-card {
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  text-align: start;
+  cursor: pointer;
+  padding: 8px;
+  overflow: hidden;
+}
+.media-card h3 {
+  color: rgba(255, 105, 180, 0.721);
+  font-size: 15px;
+}
+.media-card p {
+  font-size: 12px;
+  color: white;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.media-card img {
+  width: 100%;
+  height: 70%;
+  border-radius: 7px;
+  object-fit: cover;
+}
+.swiper-media {
+  width: 300px !important;
+}

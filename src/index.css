@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  min-height: 100vh;
+  background: rgb(182, 182, 182);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(182, 182, 182, 1) 0%,
+    rgba(25, 2, 25, 1) 95%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(182, 182, 182, 1) 0%,
+    rgba(25, 2, 25, 1) 95%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(182, 182, 182, 1) 0%,
+    rgba(25, 2, 25, 1) 95%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b6b6b6",endColorstr="#190219",GradientType=1);
+}
